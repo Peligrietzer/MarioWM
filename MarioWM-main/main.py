@@ -11,12 +11,12 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-from a2c_ppo_acktr_m import algo, utils
-from a2c_ppo_acktr_m.algo import gail
-from a2c_ppo_acktr_m.arguments import get_args
-from a2c_ppo_acktr_m.envs import make_vec_envs
-from a2c_ppo_acktr_m.model import Policy
-from a2c_ppo_acktr_m.storage import RolloutStorage
+from a2c_ppo_acktr import algo, utils
+from a2c_ppo_acktr.algo import gail
+from a2c_ppo_acktr.arguments import get_args
+from a2c_ppo_acktr.envs import make_vec_envs
+from a2c_ppo_acktr.model import Policy
+from a2c_ppo_acktr.storage import RolloutStorage
 from evaluation import evaluate
 
 
